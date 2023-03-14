@@ -1,0 +1,103 @@
+print(" ╔═════════════════════════╗")
+print(" ║  Somehow More Advanced  ║")
+print(" ║  Denomination Program   ║")
+print(" ╚═════════════════════════╝ ")
+print("► Your Money is our Problem ◄")
+
+
+
+print("  ")
+print("  ")
+
+
+
+Pera = float(input("Enter the amount of your money : "))
+
+
+
+Isang_Libo = Pera % 1000
+a_pera = int(Pera / 1000)
+
+
+Payb_Handred = Isang_Libo % 500
+b_pera = int(Isang_Libo / 500)
+
+
+Too_Handred = Payb_Handred % 200
+c_pera = int(Payb_Handred / 200)
+
+
+Wan_Handred = Too_Handred % 100
+d_pera = int(Too_Handred / 100)
+
+
+Pipti = Wan_Handred % 50
+e_pera = int(Wan_Handred / 50)
+
+
+Etneb = Pipti % 20
+f_pera = int(Pipti / 20)
+
+
+Opmas = Etneb % 10
+g_pera = int(Etneb / 10)
+
+
+Lima = Opmas % 5
+h_pera = int(Opmas / 5)
+
+
+Osip = Lima % 1
+i_pera = int(Lima / 1)
+
+Bentesingko = Osip % 0.25
+j_pera = int(Osip / 0.25)
+
+if a_pera != 0 :
+  print(f"You have {a_pera} of one thousand peso bill")
+elif a_pera != 1 :
+  print(f"You have {a_pera} of one thousand peso bill")
+  
+if b_pera != 0 :
+  print(f"You have {b_pera} of five hundred peso bill")
+elif b_pera != 1 :
+  print(f"You have {b_pera} of five hundred peso bill")
+
+if c_pera != 0 :
+  print(f"You have {c_pera} of two hundred peso bill")
+elif c_pera != 1 :
+  print(f"You have {c_pera} of two hundred peso bill")
+
+if d_pera != 0 :
+  print(f"You have {d_pera} of one hundred peso bill")
+elif d_pera != 1 :
+  print(f"You have {d_pera} of one hundred peso bill")
+
+if e_pera != 0 :
+  print(f"You have {e_pera} of fifty peso bill")
+elif  e_pera != 1 :
+  print(f"You have {e_pera} of fifty peso bill")
+
+if f_pera != 0 :
+  print(f"You have {f_pera} of twenty peso bill")
+elif f_pera != 1 :
+  print(f"You have {f_pera} of twenty peso bill")
+if g_pera != 0 :
+    print(f"You have {g_pera} of ten peso coin")
+elif  g_pera != 1 :
+    print(f"You have {g_pera} of ten peso coin")
+
+if h_pera != 0 :
+    print(f"You have {h_pera} of five peso coin")
+elif h_pera != 1 :
+    print(f"You have {h_pera} of five peso coin")
+     
+if i_pera != 0 :
+    print(f"You have {i_pera} of one peso coin")
+elif i_pera !=1 : 
+    print(f"You have {i_pera} of one peso coin")
+    
+if j_pera != 0 :
+    print(f"You have {j_pera} of 25  centavo coin")
+elif j_pera != 1 :
+    print(f"You have {j_pera} of 25  centavo coin")
