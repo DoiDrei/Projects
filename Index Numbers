@@ -1,0 +1,15 @@
+x = 0 
+num= []
+while True:
+  n = int(input("Enter number for index" + str(x) + " : "))
+  num.append(n)
+  if n == "":
+     break
+  elif int(n) == 0:
+     break
+  x + 1
+print("\nList :", num, "List length :", len(num))
+print("Highest number :", max(num))
+print("Highest number found at index :", num.index(max(num)))
+print("Lowest number :", min(num))
+print("Lowest number found at index :", num.index(min(num)))
