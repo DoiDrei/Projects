@@ -1,0 +1,37 @@
+prelim  = int(input("\n\tInput your Prelim Grade: "))
+prelim_grade = prelim * .15
+print ("\tYour Prelim Grade is", round(prelim_grade, 2))
+
+midterm = int(input("\n\tInput your Midterm Grade: "))
+midterm_grade = midterm * .15
+print ("\tYour Midterm Grade is", round(midterm_grade, 2))
+
+semifinal = int(input("\n\tInput your Semi Final Grade: "))
+semifinal_grade = semifinal * .15
+print("\tYour Semi Final Grade is", round(semifinal_grade, 2))
+
+final = int(input("\n\tInput your Final Grade: "))
+final_grade = final * .15
+print ("\tYour Final Grade is", round(final_grade, 2))
+ 
+quiz = int(input("\n\tInput your Quiz Grade: "))
+quiz_grade = quiz * .15
+print("\tYour Quiz Grade is", round(quiz_grade, 2))
+
+project = int(input("\n\tGivFe your Project Grade: "))
+project_grade = project * .15
+print("\tYour Project Grade is", round(project_grade, 2))
+
+average_grade = prelim_grade + midterm_grade + semifinal_grade + final_grade + quiz_grade + project_grade
+if average_grade > 75:
+    
+    print("\n\tCongratulation your Final Grade is", round(average_grade, 2))
+    print("\t\tYou Passed! Good Job!")
+elif average_grade == 75:
+    print("\n\tCongrats You Passed (Try Harder Next Time)", round(average_grade, 2))
+    print("\n\tStudy Well")
+    
+elif average_grade <= 74:
+    print("\n\tSorry your Final Grade is", round(average_grade, 2))
+    print("\t\t\tSorry you failed")
+    print("\n\n\t We recommend you to take a summer class")
