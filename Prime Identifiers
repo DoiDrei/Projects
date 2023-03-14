@@ -1,0 +1,8 @@
+numero = int(input("Input any range of number:"))
+
+for numero in range(numero):
+    prime = True
+    for i in range (2,num):
+        if(numero%i==0): False
+    if prime:
+        print (num)
